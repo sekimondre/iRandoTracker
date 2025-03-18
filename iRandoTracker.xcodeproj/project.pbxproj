@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		76E8FF332D89BDD000A0B355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76E8FF172D89BDCF00A0B355 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76E8FF1E2D89BDCF00A0B355;
+			remoteInfo = iRandoTracker;
+		};
+		76E8FF3D2D89BDD000A0B355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76E8FF172D89BDCF00A0B355 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76E8FF1E2D89BDCF00A0B355;
+			remoteInfo = iRandoTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76E8FF1F2D89BDCF00A0B355 /* iRandoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRandoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E8FF322D89BDD000A0B355 /* iRandoTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRandoTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E8FF3C2D89BDD000A0B355 /* iRandoTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRandoTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		76E8FF212D89BDCF00A0B355 /* iRandoTracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iRandoTracker;
+			sourceTree = "<group>";
+		};
+		76E8FF352D89BDD000A0B355 /* iRandoTrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iRandoTrackerTests;
+			sourceTree = "<group>";
+		};
+		76E8FF3F2D89BDD000A0B355 /* iRandoTrackerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iRandoTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76E8FF1C2D89BDCF00A0B355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E8FF2F2D89BDD000A0B355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E8FF392D89BDD000A0B355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76E8FF162D89BDCF00A0B355 = {
+			isa = PBXGroup;
+			children = (
+				76E8FF212D89BDCF00A0B355 /* iRandoTracker */,
+				76E8FF352D89BDD000A0B355 /* iRandoTrackerTests */,
+				76E8FF3F2D89BDD000A0B355 /* iRandoTrackerUITests */,
+				76E8FF202D89BDCF00A0B355 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76E8FF202D89BDCF00A0B355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76E8FF1F2D89BDCF00A0B355 /* iRandoTracker.app */,
+				76E8FF322D89BDD000A0B355 /* iRandoTrackerTests.xctest */,
+				76E8FF3C2D89BDD000A0B355 /* iRandoTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76E8FF1E2D89BDCF00A0B355 /* iRandoTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E8FF462D89BDD000A0B355 /* Build configuration list for PBXNativeTarget "iRandoTracker" */;
+			buildPhases = (
+				76E8FF1B2D89BDCF00A0B355 /* Sources */,
+				76E8FF1C2D89BDCF00A0B355 /* Frameworks */,
+				76E8FF1D2D89BDCF00A0B355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				76E8FF212D89BDCF00A0B355 /* iRandoTracker */,
+			);
+			name = iRandoTracker;
+			packageProductDependencies = (
+			);
+			productName = iRandoTracker;
+			productReference = 76E8FF1F2D89BDCF00A0B355 /* iRandoTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76E8FF312D89BDD000A0B355 /* iRandoTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E8FF492D89BDD000A0B355 /* Build configuration list for PBXNativeTarget "iRandoTrackerTests" */;
+			buildPhases = (
+				76E8FF2E2D89BDD000A0B355 /* Sources */,
+				76E8FF2F2D89BDD000A0B355 /* Frameworks */,
+				76E8FF302D89BDD000A0B355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76E8FF342D89BDD000A0B355 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				76E8FF352D89BDD000A0B355 /* iRandoTrackerTests */,
+			);
+			name = iRandoTrackerTests;
+			packageProductDependencies = (
+			);
+			productName = iRandoTrackerTests;
+			productReference = 76E8FF322D89BDD000A0B355 /* iRandoTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76E8FF3B2D89BDD000A0B355 /* iRandoTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E8FF4C2D89BDD000A0B355 /* Build configuration list for PBXNativeTarget "iRandoTrackerUITests" */;
+			buildPhases = (
+				76E8FF382D89BDD000A0B355 /* Sources */,
+				76E8FF392D89BDD000A0B355 /* Frameworks */,
+				76E8FF3A2D89BDD000A0B355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76E8FF3E2D89BDD000A0B355 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				76E8FF3F2D89BDD000A0B355 /* iRandoTrackerUITests */,
+			);
+			name = iRandoTrackerUITests;
+			packageProductDependencies = (
+			);
+			productName = iRandoTrackerUITests;
+			productReference = 76E8FF3C2D89BDD000A0B355 /* iRandoTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76E8FF172D89BDCF00A0B355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					76E8FF1E2D89BDCF00A0B355 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					76E8FF312D89BDD000A0B355 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 76E8FF1E2D89BDCF00A0B355;
+					};
+					76E8FF3B2D89BDD000A0B355 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 76E8FF1E2D89BDCF00A0B355;
+					};
+				};
+			};
+			buildConfigurationList = 76E8FF1A2D89BDCF00A0B355 /* Build configuration list for PBXProject "iRandoTracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76E8FF162D89BDCF00A0B355;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 76E8FF202D89BDCF00A0B355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76E8FF1E2D89BDCF00A0B355 /* iRandoTracker */,
+				76E8FF312D89BDD000A0B355 /* iRandoTrackerTests */,
+				76E8FF3B2D89BDD000A0B355 /* iRandoTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76E8FF1D2D89BDCF00A0B355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E8FF302D89BDD000A0B355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E8FF3A2D89BDD000A0B355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76E8FF1B2D89BDCF00A0B355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E8FF2E2D89BDD000A0B355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E8FF382D89BDD000A0B355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76E8FF342D89BDD000A0B355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76E8FF1E2D89BDCF00A0B355 /* iRandoTracker */;
+			targetProxy = 76E8FF332D89BDD000A0B355 /* PBXContainerItemProxy */;
+		};
+		76E8FF3E2D89BDD000A0B355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76E8FF1E2D89BDCF00A0B355 /* iRandoTracker */;
+			targetProxy = 76E8FF3D2D89BDD000A0B355 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		76E8FF442D89BDD000A0B355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76E8FF452D89BDD000A0B355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		76E8FF472D89BDD000A0B355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iRandoTracker/iRandoTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iRandoTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sekimondre.iRandoTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		76E8FF482D89BDD000A0B355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iRandoTracker/iRandoTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iRandoTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sekimondre.iRandoTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		76E8FF4A2D89BDD000A0B355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sekimondre.iRandoTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRandoTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iRandoTracker";
+			};
+			name = Debug;
+		};
+		76E8FF4B2D89BDD000A0B355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sekimondre.iRandoTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRandoTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iRandoTracker";
+			};
+			name = Release;
+		};
+		76E8FF4D2D89BDD000A0B355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sekimondre.iRandoTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = iRandoTracker;
+			};
+			name = Debug;
+		};
+		76E8FF4E2D89BDD000A0B355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sekimondre.iRandoTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = iRandoTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76E8FF1A2D89BDCF00A0B355 /* Build configuration list for PBXProject "iRandoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E8FF442D89BDD000A0B355 /* Debug */,
+				76E8FF452D89BDD000A0B355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E8FF462D89BDD000A0B355 /* Build configuration list for PBXNativeTarget "iRandoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E8FF472D89BDD000A0B355 /* Debug */,
+				76E8FF482D89BDD000A0B355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E8FF492D89BDD000A0B355 /* Build configuration list for PBXNativeTarget "iRandoTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E8FF4A2D89BDD000A0B355 /* Debug */,
+				76E8FF4B2D89BDD000A0B355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E8FF4C2D89BDD000A0B355 /* Build configuration list for PBXNativeTarget "iRandoTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E8FF4D2D89BDD000A0B355 /* Debug */,
+				76E8FF4E2D89BDD000A0B355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76E8FF172D89BDCF00A0B355 /* Project object */;
+}
