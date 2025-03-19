@@ -23,5 +23,9 @@ struct iRandoTrackerApp: App {
             ContentView()
         }
         .modelContainer(sharedModelContainer)
+        .windowIdealSize(.fitToContent)
+//        .commands {
+//            RandomizerCommands()
+//        }
     }
 }

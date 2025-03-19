@@ -48,6 +48,7 @@ enum Item: String {
     case nayruslove = "Nayrus-Love-3D"
     case bottle = "OoT3D_Bottle_Icon"
     case claimCheck = "Claim-Check"
+    case zeldasLetter = "OoT3D_Zelda's_Letter_Icon"
     
     // Songs
     case zeldaLullaby = "OoT3D_Zelda's_Lullaby_Icon"

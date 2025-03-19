@@ -1,3 +1,5 @@
+import SwiftData
+
 final class Tracker {
     
     let equipment: [[TrackedItem]] = [
@@ -54,7 +56,7 @@ final class Tracker {
             .init(item: .bottle),
             .init(item: .bottle),
             .init(item: .claimCheck),
-//            .init(item: .nayruslove),
+            .init(item: .zeldasLetter, isSelected: true),
         ],
     ]
     
@@ -104,4 +106,12 @@ final class Tracker {
         .init(item: .spiritMedallion),
         .init(item: .lightMedallion),
     ]
+    
+    func reset() {
+        equipment.forEach { $0.forEach { $0.isSelected = false }}
+        inventory.forEach { $0.forEach { $0.isSelected = false }}
+        keyItems.forEach { $0.forEach { $0.isSelected = false }}
+        songs.forEach { $0.isSelected = false }
+        medallions.forEach { $0.isSelected = false }
+    }
 }
