@@ -1,22 +1,8 @@
-//
-
 import SwiftUI
 import SwiftData
 
-@Observable
-final class TrackedItem: Identifiable {
-    let item: Item
-    var isSelected: Bool
-    
-    init(item: Item, isSelected: Bool = false) {
-        self.item = item
-        self.isSelected = isSelected
-    }
-}
-
-
-
 struct ContentView: View {
+    
     @Environment(\.modelContext) private var modelContext
 //    @Query private var items: [Item]
     
@@ -24,9 +10,44 @@ struct ContentView: View {
 
     var body: some View {
         HStack(alignment: .top, spacing: 8) {
-            EquipmentView(equipment: tracker.equipment)
-            InventoryView(inventory: tracker.inventory)
+            VStack(alignment: .leading, spacing: 8) {
+                InventoryView(inventory: tracker.inventory)
+                HStack {
+                    EquipmentView(equipment: tracker.equipment)
+                    KeyItemsView(keyItems: tracker.keyItems)
+                }
+                Grid {
+                    GridRow {
+                        ForEach(tracker.medallions) { tracked in
+                            Image(tracked.item.imageName)
+                                .if(!tracked.isSelected) {
+                                    $0.grayscale(1.0).opacity(0.5)
+                                }
+                                .onTapGesture {
+                                    toggleItem(tracked)
+                                }
+                        }
+                    }
+                }
+            }
+            Grid {
+                ForEach(tracker.songs) { tracked in
+                    GridRow {
+                        Image(tracked.item.imageName)
+                            .resizable()
+                            .frame(width: 52, height: 30)
+                            .if(!tracked.isSelected) {
+                                $0.grayscale(1.0).opacity(0.5)
+                            }
+                            .onTapGesture {
+                                toggleItem(tracked)
+                            }
+                            
+                    }
+                }
+            }
         }
+        .padding()
     }
     
     private func toggleItem(_ trackedItem: TrackedItem) {

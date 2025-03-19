@@ -48,5 +48,60 @@ final class Tracker {
             .init(item: .lightArrows),
             .init(item: .nayruslove),
         ],
+        [
+            .init(item: .bottle),
+            .init(item: .bottle),
+            .init(item: .bottle),
+            .init(item: .bottle),
+            .init(item: .claimCheck),
+//            .init(item: .nayruslove),
+        ],
+    ]
+    
+    let keyItems: [[TrackedItem]] = [
+        [
+            .init(item: .goronBracelet),
+            .init(item: .silverGauntlets),
+            .init(item: .goldenGauntlets),
+        ],
+        [
+            .init(item: .adultWallet),
+            .init(item: .giantWallet),
+            .init(item: .magic),
+        ],
+        [
+            .init(item: .silverScale),
+            .init(item: .goldenScale),
+            .init(item: .gerudoCard),
+        ],
+        [
+            .init(item: .kokiriEmerald),
+            .init(item: .goronRuby),
+            .init(item: .zoraSapphire),
+        ]
+    ]
+    
+    let songs: [TrackedItem] = [
+        .init(item: .zeldaLullaby),
+        .init(item: .eponasSong),
+        .init(item: .sariasSong),
+        .init(item: .sunsSong),
+        .init(item: .songOfTime),
+        .init(item: .songOfStorms),
+        .init(item: .minuetOfForest),
+        .init(item: .boleroOfFire),
+        .init(item: .serenadeOfWater),
+        .init(item: .requiemOfSpirit),
+        .init(item: .nocturneOfShadow),
+        .init(item: .preludeOfLight),
+    ]
+    
+    let medallions: [TrackedItem] = [
+        .init(item: .forestMedallion),
+        .init(item: .fireMedallion),
+        .init(item: .waterMedallion),
+        .init(item: .shadowMedallion),
+        .init(item: .spiritMedallion),
+        .init(item: .lightMedallion),
     ]
 }
