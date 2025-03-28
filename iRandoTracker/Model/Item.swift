@@ -80,4 +80,11 @@ enum Item: String {
 
 extension Item {
     var imageName: String { rawValue }
+    
+    static var defaultStarterKeys: [String] = [
+        Item.kokiriTunic.rawValue,
+        Item.normalBoots.rawValue,
+        Item.dekuStick.rawValue,
+        Item.dekuNuts.rawValue
+    ]
 }

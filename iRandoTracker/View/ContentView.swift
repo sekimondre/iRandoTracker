@@ -122,8 +122,13 @@ struct ContentView: View {
     }
     
     private func toggleItem(_ trackedItem: TrackedItem) {
-        trackedItem.isSelected.toggle()
+//        trackedItem.isSelected.toggle()
+        tracker.toggle(trackedItem)
 //        modelContext.insert(trackedItem)
+    }
+    
+    private func save() {
+        
     }
     
     private func reset() {

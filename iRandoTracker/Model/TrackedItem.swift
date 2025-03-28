@@ -2,7 +2,7 @@ import SwiftUI
 
 @Observable
 final class TrackedItem: Identifiable {
-    let item: Item
+    var item: Item
     var isSelected: Bool
     
     init(item: Item, isSelected: Bool = false) {

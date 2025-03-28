@@ -1,6 +1,13 @@
-import SwiftData
+import SwiftUI
 
 final class Tracker {
+    
+    private let trackerData = TrackerData()
+    
+    init() {
+        trackerData.load()
+        refresh()
+    }
     
     let equipment: [[TrackedItem]] = [
         [
@@ -14,12 +21,12 @@ final class Tracker {
             .init(item: .mirrorShield)
         ],
         [
-            .init(item: .kokiriTunic, isSelected: true),
+            .init(item: .kokiriTunic),
             .init(item: .goronTunic),
             .init(item: .zoraTunic)
         ],
         [
-            .init(item: .normalBoots, isSelected: true),
+            .init(item: .normalBoots),
             .init(item: .ironBoots),
             .init(item: .hoverBoots)
         ],
@@ -27,8 +34,8 @@ final class Tracker {
     
     let inventory: [[TrackedItem]] = [
         [
-            .init(item: .dekuStick, isSelected: true),
-            .init(item: .dekuNuts, isSelected: true),
+            .init(item: .dekuStick),
+            .init(item: .dekuNuts),
             .init(item: .bombs),
             .init(item: .bow),
             .init(item: .fireArrows),
@@ -107,11 +114,38 @@ final class Tracker {
         .init(item: .lightMedallion),
     ]
     
+    func toggle(_ trackedItem: TrackedItem) {
+        trackedItem.isSelected.toggle()
+        if trackedItem.isSelected {
+            trackerData.trackedKeys.insert(trackedItem.item.rawValue)
+        } else {
+            trackerData.trackedKeys.remove(trackedItem.item.rawValue)
+        }
+        try? trackerData.save()
+    }
+    
+    func refresh() {
+        equipment.forEach { $0.forEach {
+            $0.isSelected = trackerData.trackedKeys.contains($0.item.rawValue)
+        }}
+        inventory.forEach { $0.forEach {
+            $0.isSelected = trackerData.trackedKeys.contains($0.item.rawValue)
+        }}
+        keyItems.forEach { $0.forEach {
+            $0.isSelected = trackerData.trackedKeys.contains($0.item.rawValue)
+        }}
+        songs.forEach {
+            $0.isSelected = trackerData.trackedKeys.contains($0.item.rawValue)
+        }
+        medallions.forEach {
+            $0.isSelected = trackerData.trackedKeys.contains($0.item.rawValue)
+        }
+    }
+    
     func reset() {
-        equipment.forEach { $0.forEach { $0.isSelected = false }}
-        inventory.forEach { $0.forEach { $0.isSelected = false }}
-        keyItems.forEach { $0.forEach { $0.isSelected = false }}
-        songs.forEach { $0.isSelected = false }
-        medallions.forEach { $0.isSelected = false }
+        trackerData.trackedKeys.removeAll()
+        trackerData.trackedKeys = Set(Item.defaultStarterKeys)
+        try? trackerData.save()
+        refresh()
     }
 }
